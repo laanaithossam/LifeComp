@@ -1,2 +1,2 @@
 # LifeComp
-Angular2 / Express
+Angular2/Ionic2/Express
