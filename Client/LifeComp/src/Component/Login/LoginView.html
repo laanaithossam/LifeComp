@@ -1,0 +1,32 @@
+<ion-list>
+
+  <ion-item>
+    <ion-label floating>Username</ion-label>
+    <ion-input [(ngModel)]="Username" type="text" value=""></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Password</ion-label>
+    <ion-input [(ngModel)]="Password" type="password" value=""></ion-input>
+  </ion-item>
+
+</ion-list>
+
+<div padding>
+  <button ion-button primary block outline [Command]="LoginCommand">Sign In</button>
+</div>
+
+<div align="Center">
+  Or
+</div>
+<div padding align="Center">
+  <button ion-button color="facebook" (click)="FacebookLogin()">
+    <ion-icon name="logo-facebook"></ion-icon>
+  </button>
+  <button ion-button color="google" (click)="GoogleLogin()">
+    <ion-icon name="logo-google"></ion-icon>
+  </button>
+  <button ion-button color="twitter" (click)="TwitterLogin()">
+    <ion-icon name="logo-twitter"></ion-icon>
+  </button>
+</div>

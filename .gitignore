@@ -1,0 +1,10 @@
+node_modules
+build/local/lifecomp.js
+build/local/lifecomp.js.map
+.idea
+.vscode
+dist
+/Client/LifeComp/www/build/css/
+/Client/LifeComp/www/build/js/
+/Client/LifeComp/www/build/pages/
+/Client/LifeComp/www/build/fonts/

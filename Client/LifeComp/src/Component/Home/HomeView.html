@@ -1,0 +1,11 @@
+<ion-content>
+  <ion-list-header>{{HomeModel.Title}} {{User.FirstName}} ?</ion-list-header>
+  <ion-list>
+    <button ion-item [Command]="NavigateToCategoryCommand" [CommandParameter]="category" *ngFor="let category of HomeModel.Categories">
+      {{category.Value}}
+      <div class="item-note" item-right="">
+        {{category.Description}}
+      </div>
+    </button>
+  </ion-list>
+</ion-content>
